@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>For Someone Special</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Yaaaaaaaay.... Hello My Queen</h1>
+    <p>Weclome to my Humble Website.. I'm Really glad you came</p>
+  </header>
+
+  <section id="gallery">
+    <h2>So, This is my photos that i took in Cairo.. i hope you like it.... Respectfully</h2>
+    <div class="photo-grid">
+      <!-- Photo 1 -->
+      <div class="photo-container">
+        <img src="./pics/1.jpg" alt="Our first date" onclick="openModal('./pics/1.jpg')">
+        <div class="like-section">
+          <button class="like-btn" onclick="likePhoto('photo1')">❤️</button>
+          <span class="like-count" id="photo1-likes">0</span>
+        </div>
+      </div>
+
+      <!-- Photo 2 -->
+      <div class="photo-container">
+        <img src="./pics/2.jpg" alt="Our vacation" onclick="openModal('./pics/2.jpg')">
+        <div class="like-section">
+          <button class="like-btn" onclick="likePhoto('photo2')">❤️</button>
+          <span class="like-count" id="photo2-likes">0</span>
+        </div>
+      </div>
+
+      <!-- Photo 3 -->
+      <div class="photo-container">
+        <img src="./pics/3.jpg" alt="Our vacation" onclick="openModal('./pics/3.jpg')">
+        <div class="like-section">
+          <button class="like-btn" onclick="likePhoto('photo3')">❤️</button>
+          <span class="like-count" id="photo2-likes">0</span>
+        </div>
+      </div>
+
+      <!-- Photo 4 -->
+      <div class="photo-container">
+        <img src="./pics/4.jpg" alt="Celebrating together" onclick="openModal('./pics/4.jpg')">
+        <div class="like-section">
+          <button class="like-btn" onclick="likePhoto('photo4')">❤️</button>
+          <span class="like-count" id="photo3-likes">0</span>
+        </div>
+      </div>
+
+    <!-- Photo 5 -->
+    <div class="photo-container">
+      <img src="./pics/5.jpg" alt="Celebrating together" onclick="openModal('./pics/5.jpg')">
+      <div class="like-section">
+        <button class="like-btn" onclick="likePhoto('photo5')">❤️</button>
+        <span class="like-count" id="photo3-likes">0</span>
+      </div>
+    </div>
+ 
+
+  <!-- Photo 6 -->
+  <div class="photo-container">
+    <img src="./pics/6.jpg" alt="Celebrating together" onclick="openModal('./pics/6.jpg')">
+    <div class="like-section">
+      <button class="like-btn" onclick="likePhoto('photo6')">❤️</button>
+      <span class="like-count" id="photo3-likes">0</span>
+    </div>
+  </div>
+
+
+<!-- Photo 7 -->
+<div class="photo-container">
+  <img src="./pics/7.jpg" alt="Celebrating together" onclick="openModal('./pics/7.jpg')">
+  <div class="like-section">
+    <button class="like-btn" onclick="likePhoto('photo7')">❤️</button>
+    <span class="like-count" id="photo3-likes">0</span>
+  </div>
+</div>
+
+
+<!-- Photo 8 -->
+<div class="photo-container">
+  <img src="./pics/8.jpg" alt="Celebrating together" onclick="openModal('./pics/8.jpg')">
+  <div class="like-section">
+    <button class="like-btn" onclick="likePhoto('photo8')">❤️</button>
+    <span class="like-count" id="photo3-likes">0</span>
+  </div>
+</div>
+
+
+<!-- Photo 9 -->
+<div class="photo-container">
+  <img src="./pics/9.jpg" alt="Celebrating together" onclick="openModal('./pics/9.jpg')">
+  <div class="like-section">
+    <button class="like-btn" onclick="likePhoto('photo9')">❤️</button>
+    <span class="like-count" id="photo3-likes">0</span>
+  </div>
+</div>
+
+
+<!-- Photo 10 -->
+<div class="photo-container">
+  <img src="./pics/10.jpg" alt="Celebrating together" onclick="openModal('./pics/10.jpg')">
+  <div class="like-section">
+    <button class="like-btn" onclick="likePhoto('photo10')">❤️</button>
+    <span class="like-count" id="photo3-likes">0</span>
+  </div>
+</div>
+
+
+<!-- Photo 11 -->
+<div class="photo-container">
+  <img src="./pics/11.jpg" alt="Celebrating together" onclick="openModal('./pics/11.jpg')">
+  <div class="like-section">
+    <button class="like-btn" onclick="likePhoto('photo11')">❤️</button>
+    <span class="like-count" id="photo3-likes">0</span>
+  </div>
+</div>
+
+
+<!-- Photo 12 -->
+<div class="photo-container">
+  <img src="./pics/12.jpg" alt="Celebrating together" onclick="openModal('./pics/12.jpg')">
+  <div class="like-section">
+    <button class="like-btn" onclick="likePhoto('photo12')">❤️</button>
+    <span class="like-count" id="photo3-likes">0</span>
+  </div>
+</div>
+</div>
+
+  </section>
+
+  <!-- Modal for full-size image -->
+  <div id="imageModal" class="modal">
+    <span class="close" onclick="closeModal()">&times;</span>
+    <img id="fullImage" class="modal-content">
+    <a id="downloadLink" download>
+      <button class="download-btn">Download Image</button>
+    </a>
+  </div>
+
+  <!-- Music Section -->
+  <section id="music">
+    <h2>Songs You Love</h2>
+    <div class="song-container">
+      <iframe src="https://open.spotify.com/embed/track/0yLdNVWF3Srea0uzk55zFn?utm_source=generator" width="300" height="80" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+      <p>"Flowers" by Miley Cyrus</p>
+    </div>
+  </section>
+
+  <!-- Weird Food Section -->
+  <section id="weird-food" style="margin-bottom: 6em;">
+    <h2>Her Weird Ass Food Preferences</h2>
+    <div class="food-list">
+      <div class="food-item">
+        <h3>Ketchup on Pasta</h3>
+        <p>Because who needs marinara when you have ketchup? Respectfully. 😅</p>
+      </div>
+      <div class="food-item">
+        <h3>Turkish Coffee</h3>
+        <p>Strong, bold, and always a mood. Just like her. ☕</p>
+      </div>
+      <div class="food-item">
+        <h3>Baklava</h3>
+        <p>Sweet, sticky, and impossible to resist. Just like her. 🍯</p>
+      </div>
+      <div class="food-item">
+        <h3>Kebab</h3>
+        <p>Because sometimes you just need meat on a stick. 🍢</p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>Made with ❤️ by Sülo</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
